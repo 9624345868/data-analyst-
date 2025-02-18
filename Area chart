@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+# Example: Area Chart
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+plt.fill_between(x, y, color='skyblue', alpha=0.4)
+plt.xlabel('X-axis Label')
+plt.ylabel('Y-axis Label')
+plt.title('Area Chart Example')
+plt.show()
